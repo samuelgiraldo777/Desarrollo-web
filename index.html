@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web de turismo</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Descubre Colombia</h1>
+        <p>Conoce los lugares más hermosos de nuestro país.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#lugares">Lugares</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div id="inicio">
+        <section>
+            <h2>Bienvenidos</h2>
+            <p>
+                Colombia es un país lleno de cultura, naturaleza
+                y lugares maravillosos para visitar.
+            </p>
+
+            <img
+                src="https://picsum.photos/400/200"
+                alt="Paisaje de ejemplo"
+                width="400"
+            >
+
+            <p>
+                Viaja y descubre <span>nuevas experiencias</span>.
+            </p>
+
+            <a href="https://colombia.travel/es"
+               target="_blank">
+                Visita Colombia Travel
+            </a>
+        </section>
+    </div>
+
+    <!-- Sección de lugares turísticos -->
+    <section id="lugares">
+        <h2>Lugares turísticos</h2>
+
+        <h3>Cartagena</h3>
+        <p>Una ciudad famosa por sus playas y su historia.</p>
+
+        <h4>Actividades en Cartagena</h4>
+        <ul>
+            <li>Visitar las playas</li>
+            <li>Conocer la ciudad amurallada</li>
+            <li>Probar la comida típica</li>
+        </ul>
+
+        <h5>Otros destinos</h5>
+        <ol>
+            <li>Medellín</li>
+            <li>Bogotá</li>
+            <li>Santa Marta</li>
+        </ol>
+
+        <h6>Recomendación</h6>
+        <p>Recuerda llevar ropa cómoda y protector solar.</p>
+    </section>
+
+    <!-- Tabla de destinos -->
+    <section>
+        <h2>Información de destinos</h2>
+
+        <table border="1">
+            <tr>
+                <th>Destino</th>
+                <th>Actividad</th>
+                <th>Precio aproximado</th>
+            </tr>
+            <tr>
+                <td>Cartagena</td>
+                <td>Playa</td>
+                <td>$50.000</td>
+            </tr>
+            <tr>
+                <td>Medellín</td>
+                <td>Turismo urbano</td>
+                <td>$30.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+
+        <form action="#" method="get">
+            <label for="nombre">Nombre:</label>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Escribe tu nombre"
+            >
+
+            <br><br>
+
+            <label for="correo">Correo electrónico:</label>
+            <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="ejemplo@correo.com"
+            >
+
+            <br><br>
+
+            <label for="destino">Destino favorito:</label>
+            <input
+                type="text"
+                id="destino"
+                name="destino"
+            >
+
+            <br><br>
+
+            <button type="submit">Enviar información</button>
+        </form>
+    </section>
+
+    <!-- Video -->
+    <section>
+        <h2>Video de ejemplo</h2>
+
+        <video width="400" controls>
+            <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+            >
+            Tu navegador no admite videos HTML.
+        </video>
+    </section>
+
+    <!-- Audio -->
+    <section>
+        <h2>Audio de ejemplo</h2>
+
+        <audio controls>
+            <source
+                src="https://www.w3schools.com/html/horse.mp3"
+                type="audio/mpeg"
+            >
+            Tu navegador no admite audio HTML.
+        </audio>
+    </section>
+
+    <!-- Página externa -->
+    <section>
+        <h2>Mapa o página externa</h2>
+
+        <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-74.12%2C4.55%2C-74.02%2C4.72"
+            width="400"
+            height="300"
+            title="Mapa de Bogotá">
+        </iframe>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2026 Mi página web de turismo.</p>
+        <p>Todos los derechos reservados.</p>
+        <a href="#inicio">Volver al inicio</a>
+    </footer>
+
+</body>
+</html>
